@@ -1,0 +1,150 @@
+@media (max-width:768px) {
+    .header {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header__container {
+        width: 600px;
+        margin: auto;
+    }
+
+    .header-image_ss {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+    }
+    .content-top-right-image{
+        margin-bottom: 150px;
+    }
+    .content-top-right {
+        display: flex;
+        padding-left: 65px;
+    }
+    .content-top-left-title{
+        padding-top: 150px;
+    }
+    .content-top-left{
+        display: flex;
+        flex-direction: column;
+        padding-left: 62px;
+        text-align: center;
+    }
+    .buttnn{
+        margin-left: 128px;
+        margin-bottom: 50px;
+    }
+
+    .content-top {
+        display: unset;
+    }
+
+    .content_I {
+        display: none;
+    }
+    .section__wrap-title{
+        max-width: 450px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .section__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__wrap__top {
+        display: flex;
+    }
+
+    .content {
+        width: 600px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section__container{
+        width: 600px;
+        margin: auto;
+    }
+
+    .footer__container {
+        width: 600px;
+    }
+
+    .section2__contaiener {
+        width: 700px;
+        margin: auto;
+    }
+    .section2{
+     width: 100%;
+    }
+
+    .wrap__bottom {
+        background: url(./Image/Bitmap.png) center;
+        height: 100%;
+        display: block;
+        opacity: 0.75;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .wrap__bottom-text::after {
+        display: none;
+    }
+
+    .wrap__bottom-text {
+        padding-left: 0px;
+    }
+
+    .buttonn {
+        margin-left: 0px;
+        display: flex;
+
+    }
+
+    .wrap__top {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        column-gap: 80px;
+    }
+
+    .card-text {
+        max-width: 329px;
+        width: 100%;
+    }
+    .main__container{
+        width: 600px;
+        margin: auto;
+    }
+
+    .main_wrap {
+        display: grid;
+        padding-bottom: 100px;
+    }
+
+    .main_wrap-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+
+    .main_wrap:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+}
